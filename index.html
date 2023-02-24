@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>Contact us</h1>
+            <p>Please, enter your details below and we'll get back to you within 48h</p>
+        </header>
+        <form id="my-form">
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <div class="input-wrapper">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required minlength="3"/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="phone">Mobile number</label>
+                        <input type="number" id="phone" required minlength="6"/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" required minlength="2"/>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="client-type">I'm contacting as a:</label>
+                        <select id="client-type">
+                            <option value="person">Person</option>
+                            <option value="business">Business</option>
+                        </select>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="contact-type">Reason for contact:</label>
+                        <select id="contact-type">
+                            <option value="feedback">Feedback</option>
+                            <option value="support">Support</option>
+                            <option value="complaint">Complaint</option>
+                        </select>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <footer>
+            <input class="button" type="reset" form="my-form" value="Reset">
+            <input class="button" type="submit" form="my-form" value="Submit">
+        </footer>
+    </div>
+</body>
+</html>
