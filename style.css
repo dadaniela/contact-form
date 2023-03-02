@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    background: #0e0327;
+    color: #F5F2EF;
+}
+
+fieldset {
+    border: none;
+}
+
+.page h1 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 1rem 2rem 1.5rem;
+}
+
+.page p {
+    font-size: 1.2rem;
+    margin: 1rem 2rem 1rem;
+}
+
+form {
+    margin: 1rem 2rem 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-wrapper label {
+    font-size: 1rem;
+    margin-bottom: .4rem;
+}
+
+.input-wrapper input {
+    height: 2rem;
+    border-radius: .4rem;
+}
+
+.input-wrapper select {
+    height: 2rem;
+    border-radius: .4rem;
+}
+
+.input-wrapper textarea {
+    height: 12rem;
+    border-radius: .4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    margin-bottom: 2rem;
+    background: #F0ECF7;
+    font-size: 1rem;
+    color: #0e0327;
+    width: 7rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: .4rem;
+}
